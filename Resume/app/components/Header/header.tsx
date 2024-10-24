@@ -7,7 +7,7 @@ const Header = () => (
     {/* Center: Profile Image and Name */}
     <div className="flex flex-col items-center mx-6 glow-img mt-4 ml-28 ">
       <Image 
-        src="/adil3.jfif"  
+        src="/adil3.jpg"  
         alt="Profile Picture of Syed Muhammad Adil" 
         width={250} 
         height={250} 
