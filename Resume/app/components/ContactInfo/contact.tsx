@@ -27,7 +27,7 @@ const Contact = () => (
             🌐 LinkedIn
           </p>
           <p className="text-lg text-gray-400 mb-3 italic">
-            <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="hover:underline text-teal-400 glow">
+            <a href="https://www.linkedin.com/in/syed-muhammad-adil-ahmed-3b96b2333/" target="_blank" rel="noopener noreferrer" className="hover:underline text-teal-400 glow">
               linkedin.com/in/your-profile
             </a>
           </p>
@@ -37,7 +37,7 @@ const Contact = () => (
             🐙 GitHub
           </p>
           <p className="text-lg text-gray-400 mb-3 italic">
-            <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer" className="hover:underline text-teal-400 glow">
+            <a href="https://github.com/AiWithAadil" target="_blank" rel="noopener noreferrer" className="hover:underline text-teal-400 glow">
               github.com/your-github-profile
             </a>
           </p>
