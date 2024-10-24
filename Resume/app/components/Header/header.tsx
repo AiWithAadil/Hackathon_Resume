@@ -5,7 +5,7 @@ const Header = () => (
   <header className="box-glow flex flex-col md:flex-row items-center rounded-lg p-6 text-teal-900 bg-gradient-to-r from-black to-gray-900 font-semibold w-11/12 md:w-4/6 mx-auto">
 
     {/* Center: Profile Image and Name */}
-    <div className="flex flex-col items-center mx-6 glow-img mt-4 ml-28 ">
+    <div className="flex flex-col items-center mx-6 glow-img mt-4 ml-20 ">
       <Image 
         src="/adil3.jpg"  
         alt="Profile Picture of Syed Muhammad Adil" 
