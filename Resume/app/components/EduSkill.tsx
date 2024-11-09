@@ -1,72 +1,37 @@
-const EducationAndSkills = () => (
-  <div className="flex flex-col md:flex-row gap-6 max-w-2xl mx-auto mt-6 white rounded-md bg-white">
-    {/* Education Section */}
-    <section className="box-glow p-6 md:p-8 bg-cyan-600 bg-opacity-90 rounded-xl shadow-lg md:max-w-sm">
-      <h3 className="text-xl font-extrabold mb-4 text-teal-50 text-center underline glow">
-      <span className="text-red-600 text-2xl">E</span>ducation
-      </h3>
-      <div className="space-y-8 text-center">
-        <div className="border-b pb-2">
-          <p className="text-md font-semibold text-white">
-            Saylani Mass IT Training Program
-          </p>
-          <p className="text-sm text-gray-300">
-            <span className="glow text-black">Data Engineering</span> | 2024
-          </p>
-        </div>
-        <div className="border-b pb-2">
-          <p className="text-md font-semibold text-white tracking-wide">
-            Governor House
-          </p>
-          <p className="text-sm text-gray-300">
-            <span className="glow text-black">GenAI Studies</span> | 2024
-          </p>
-        </div>
-        <div className="pb-2">
-          <p className="text-md font-semibold text-white">
-            Government Commerce College
-          </p>
-          <p className="text-sm text-gray-300 italic">
-            <span className="glow text-black">Part 2</span> | 2022
-          </p>
-        </div>
+import React from 'react';
+
+const EducationAndSkills = () => {
+  return (
+    <section className='bg-[#222831] text-[#EEEEEE] mt-6 px-6 py-8 max-w-2xl mx-auto rounded-md shadow-lg'>
+      <h2 className="text-lg md:text-xl font-semibold mb-4 text-center border-b-2 border-[#00ADB5] pb-2">Education <span className='text-[#00ADB5] text-3xl'>&</span> Skills</h2>
+      
+      {/* Education Section */}
+      <div className="mb-6">
+        <h3 className="text-md font-bold mb-2 text-[#00ADB5]">Education</h3>
+        <ul className="list-disc list-inside text-sm md:text-base">
+          <li>Bachelor's in Computer Science – ABC University (Year)</li>
+          <li>Data Engineering Specialization – XYZ Institute (Year)</li>
+        </ul>
+      </div>
+
+      {/* Skills Section */}
+      <div>
+        <h3 className="text-md font-bold mb-2 text-[#00ADB5]">Skills</h3>
+        <ul className="flex flex-wrap gap-2 text-sm md:text-base">
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">Python</li>
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">SQL</li>
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">Docker</li>
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">Kafka</li>
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">Snowflake</li>
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">Airflow</li>
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">AWS</li>
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">Data Warehousing</li>
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">Cloud Integration</li>
+          <li className="bg-[#00ADB5] text-[#222831] rounded-md px-2 py-1">GenAI</li>
+        </ul>
       </div>
     </section>
-
-    {/* Skills Section */}
-    <section className="box-glow p-6 md:p-10 bg-cyan-600 bg-opacity-90 rounded-xl shadow-lg md:max-w-2xl">
-      <h3 className="text-xl font-extrabold mb-4 text-teal-50 text-center underline glow">
-        <span className="text-red-600 text-2xl">P</span>rofessional <span className="text-red-600 text-2xl">S</span>kills
-      </h3>
-      <div className="space-y-4 text-center">
-        <div className="border-b pb-2">
-          <p className="text-md font-semibold text-white mb-2">
-            Programming Languages
-          </p>
-          <ul className="text-sm text-gray-300 italic">
-            <li>Python, JavaScript, TypeScript, SQL</li>
-          </ul>
-        </div>
-
-        <div className="pb-2">
-          <p className="text-md font-semibold text-white mb-2 tracking-wide">
-            Tools & Technologies
-          </p>
-          <ul className="text-sm text-gray-300 italic">
-            <li>Next.js, Tailwind CSS, AWS, Kafka, Snowflake, ETL, Airflow, Docker, linux, EDA</li>
-          </ul>
-        </div>
-        <div className="border-b pb-2">
-          <p className="text-md font-semibold text-white mb-2 tracking-wide">
-            Project Management
-          </p>
-          <ul className="text-sm text-gray-300 italic">
-            <li>Project Planning, Agile Methodologies, Team Leadership, Data Engineering, SEO, Web Development</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </div>
-);
+  );
+};
 
 export default EducationAndSkills;
