@@ -3,7 +3,8 @@ import React from 'react';
 const EducationAndSkills = () => {
   return (
     <section className='bg-[#222831] text-[#EEEEEE] mt-6 px-6 py-8 max-w-2xl mx-auto rounded-md shadow-lg'>
-      <h2 className="text-lg md:text-xl font-semibold mb-4 text-center border-b-2 border-[#00ADB5] pb-2">Education <span className='text-[#00ADB5] text-3xl'>&</span> Skills</h2>
+      <h2 className="text-lg md:text-xl font-semibold mb-4 text-center border-b-2 border-[#00ADB5] pb-2">Education <span className='text-[#00ADB5] text-3xl'>&amp;</span> Skills</h2>
+
       
       {/* Education Section */}
       <div className="mb-6">
