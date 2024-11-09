@@ -11,8 +11,9 @@ const EducationAndSkills = () => {
       <div className="mb-6">
         <h3 className="text-md font-bold mb-2 text-[#00ADB5]">Education</h3>
         <ul className="list-disc list-inside text-sm md:text-base">
-          <li>Bachelor&apos;s in Computer Science – ABC University (Year)</li>
-          <li>Data Engineering Specialization – XYZ Institute (Year)</li>
+          <li>I.COM PART2 – Karachi commerce collage</li>
+          <li>Data Engineering Specialization – Saylani</li>
+          <li>Generative Ai – GIAIC</li>
         </ul>
       </div>
 
